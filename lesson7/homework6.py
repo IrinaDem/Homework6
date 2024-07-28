@@ -2,8 +2,8 @@ my_dict={'Irina': 1997,'Alex': 1992}
 print(my_dict)
 print(my_dict ['Alex'])
 print(my_dict.get('Kate'))
-my_dict.update({'Viktoria': 2021,
-'Ulia': 1975})
+my_dict['Viktoria'] = 2021
+my_dict['Mary'] = 2020
 print(my_dict)
 h = my_dict.pop('Irina')
 print(h)
